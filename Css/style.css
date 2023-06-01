@@ -1,318 +1,326 @@
-body{
-    margin: 0;
-    background-color: #130f40;
+body {
+	margin: 0;
+	background-color: #130f40;
 }
 /* fonts  */
 @font-face {
-     font-family: A Grazing Mace;
-     src: url('../Fonts/A\ Grazing\ Mace.otf');
- }
- 
- *{
-    font-family: A Grazing Mace;
- }
- 
- h1,h2,h3,h4,h5{
-     font-family: A Grazing Mace; 
- }
- .uni-padding{
-     padding: 0 8%;
- }
- /* ........................... 
+	font-family: A Grazing Mace;
+	src: url("../Fonts/A\ Grazing\ Mace.otf");
+}
+
+* {
+	font-family: A Grazing Mace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: A Grazing Mace;
+}
+.uni-padding {
+	padding: 0 8%;
+}
+/* ........................... 
           Navbar
  ...........................  */
- #navbar{
-     overflow: auto;
+#navbar {
+	overflow: auto;
 }
-#portfolio{
-    width: 50%;
-    box-sizing: border-box;
+#portfolio {
+	width: 50%;
+	box-sizing: border-box;
 }
-#portfolio h1{
-    color: rgba(255,255,255, 0.7);
-    text-align: left;
-    cursor: pointer;
-    font-size: 25px;
-    letter-spacing: 0.1rem;
-    margin-top: 30px;
-    margin-bottom: -50px;
-    box-sizing: border-box;
+#portfolio a {
+	text-decoration: none;
 }
-#portfolio h1:hover{
-    color: aqua;
+#portfolio h1 {
+	color: rgba(255, 255, 255, 0.7);
+	text-align: left;
+	cursor: pointer;
+	font-size: 25px;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	margin-bottom: -50px;
+	box-sizing: border-box;
 }
-#nav-div{
-    width: 50%;
-    float: right;
-    overflow: auto;
-    box-sizing: border-box;
+#portfolio h1:hover {
+	color: aqua;
 }
-#navbar-Items{
-     float: right;
+#nav-div {
+	width: 50%;
+	float: right;
+	overflow: auto;
+	box-sizing: border-box;
 }
-#navbar-Items li{
-     display: inline-block;
-     text-decoration: none;
-     font-size: 15px;
-     color: rgba(255,255,255,0.7);
-     margin: 5px;
-     font-weight: normal;
-     padding-left: 20px;
+#navbar-Items {
+	float: right;
 }
-.nav-btn{
-    background-color: #130f40;
-    color: rgba(255,255,255,0.7);
-    padding: 5px;
-    margin: 2px;
-    font-size: 15px;
-    border: 0px;
+#navbar-Items li {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	color: rgba(255, 255, 255, 0.7);
+	margin: 5px;
+	font-weight: normal;
+	padding-left: 20px;
 }
-.nav-btn:hover{
-    box-shadow: -1px 5px 2px -2px white;
-    color: aqua;
+.nav-btn {
+	background-color: #130f40;
+	color: rgba(255, 255, 255, 0.7);
+	padding: 5px;
+	margin: 2px;
+	font-size: 15px;
+	border: 0px;
 }
-.nav-btn:active{
-    box-shadow: -1px 5px 2px -2px aqua;
+.nav-btn:hover {
+	box-shadow: -1px 5px 2px -2px white;
+	color: aqua;
 }
-.nav-btn a{
-    color: rgba(255,255,255,0.7);
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 0.1rem;
+.nav-btn:active {
+	box-shadow: -1px 5px 2px -2px aqua;
+}
+.nav-btn a {
+	color: rgba(255, 255, 255, 0.7);
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1rem;
 }
 /* ........................... 
           Hello Section
  ...........................  */
-#Hello-Section{
-    padding-top: 150px;
-    padding-bottom:135px;
-    box-sizing: border-box;
-    padding-left: 60px;
+#Hello-Section {
+	padding-top: 150px;
+	padding-bottom: 135px;
+	box-sizing: border-box;
+	padding-left: 60px;
 }
-#hello-description{
-     width: 45%;
-     float: left;
-     box-sizing: border-box;
+#hello-description {
+	width: 45%;
+	float: left;
+	box-sizing: border-box;
 }
-#hello-description h1{
-     font-size: 60px;
-     color: rgba(255,255,255,0.6);
-     letter-spacing: 0.1rem;
-     cursor: pointer;
+#hello-description h1 {
+	font-size: 60px;
+	color: rgba(255, 255, 255, 0.6);
+	letter-spacing: 0.1rem;
+	cursor: pointer;
 }
-#hello-description h1:hover{
-    color: aqua;
+#hello-description h1:hover {
+	color: aqua;
 }
-#hello-description p{
-    padding-bottom: 40px;
-    margin-top: -20px;
-    color: rgba(255,255,255,0.6);
-    font-size: 15px;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.5rem;
-    line-height: 2rem;
+#hello-description p {
+	padding-bottom: 40px;
+	margin-top: -20px;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 15px;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.5rem;
+	line-height: 2rem;
 }
-#hello-description p:hover{
-    color: rgba(255,255,255,0.9);
-    cursor: pointer;
+#hello-description p:hover {
+	color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
 }
-.Download-btn{
-     background-color: rgba(255,255,255,0.7);
-     color: #130f40;
-     padding: 0.7rem 1rem;
-     font-size: 1.5rem;
-     text-decoration: none;
-     border-radius: 5px;
-     cursor: pointer;
+.Download-btn {
+	background-color: rgba(255, 255, 255, 0.7);
+	color: #130f40;
+	padding: 0.7rem 1rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	border-radius: 5px;
+	cursor: pointer;
 }
-.Download-btn:hover{
-    background-color: rgba(255,255,255,0.9);
-     cursor: pointer;
+.Download-btn:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
 }
-.Download-btn:active{
-    box-shadow: -1px 5px 2px -2px aqua;
+.Download-btn:active {
+	box-shadow: -1px 5px 2px -2px aqua;
 }
-#hello-image{
-    width: 48%;
-    overflow:auto;
-    padding: 10px;
-    box-sizing: border-box;
-}  
-#hello-image img{
-    float: right;
-     width: 300px;
-     height: auto;
-     opacity: 0.8;
-     box-shadow: -1px 1px 15px -2px rgb(78 79 87 / 70%);
-     cursor: pointer;
-     box-sizing: border-box;
+#hello-image {
+	width: 48%;
+	overflow: auto;
+	padding: 10px;
+	box-sizing: border-box;
 }
-#hello-image img:hover{
-    box-shadow: 0px 3px 11px 0px rgba(154 146 146 /100%) ;
-    opacity: 1.0;
+#hello-image img {
+	float: right;
+	width: 300px;
+	height: auto;
+	opacity: 0.8;
+	box-shadow: -1px 1px 15px -2px rgb(78 79 87 / 70%);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+#hello-image img:hover {
+	box-shadow: 0px 3px 11px 0px rgba(154 146 146 /100%);
+	opacity: 1;
 }
 /* ........................... 
           Footer
  ...........................  */
-#Copyright-Text{
-    color: rgba(255,255,255,0.6);
-    padding-top: 10px;
-    font-size: 15px;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.1rem;
-    text-align: center;
+#Copyright-Text {
+	color: rgba(255, 255, 255, 0.6);
+	padding-top: 10px;
+	font-size: 15px;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.1rem;
+	text-align: center;
 }
-#Copyright-Text:hover{
-    color: rgba(255,255,255,0.9);
+#Copyright-Text:hover {
+	color: rgba(255, 255, 255, 0.9);
 }
 
 /* ........................... 
           Responsivness
  ...........................  */
 /* responsive ipad pro  */
-@media screen and (max-width: 1024px){
-    #nav-div {
-        width: 75%;
-    }
-    #Hello-Section {
-        padding-bottom: 400px;
-    }
-    #hello-description h1 {
-        font-size: 50px;
-    }
+@media screen and (max-width: 1024px) {
+	#nav-div {
+		width: 75%;
+	}
+	#Hello-Section {
+		padding-bottom: 400px;
+	}
+	#hello-description h1 {
+		font-size: 50px;
+	}
 }
 /* responsive ipad */
-@media screen and (max-width: 768px){
-    #nav-div {
-        width: 80%;
-    }
-    #hello-description h1 {
-        font-size: 40px;
-    }
-    #navbar-Items li {
-        padding-left: 0px;
-    }
-    #portfolio h1 {
-        padding-left: 0px;
-    }
+@media screen and (max-width: 768px) {
+	#nav-div {
+		width: 80%;
+	}
+	#hello-description h1 {
+		font-size: 40px;
+	}
+	#navbar-Items li {
+		padding-left: 0px;
+	}
+	#portfolio h1 {
+		padding-left: 0px;
+	}
 }
 /* responsive mobile phone */
-@media screen and (max-width: 500px){
-    #portfolio h1 {
-        text-align: center;
-        cursor: pointer;
-        font-size: 20px;
-        margin-top: 0px;
-        margin-bottom: -130px;
-        padding-left: 80px;
-    }
-    #hello-description {
-        width: 100%;
-        float: left;
-        box-sizing: border-box;
-    }
-    #hello-description h1 {
-        font-size: 30px;
-        padding-bottom: 20px;
-        letter-spacing: 0.1rem;
-        cursor: pointer;
-    }
-    #hello-description p{
-        padding-bottom: 10px;
-        font-size: 11px;
-        margin-right: 40px;
-        text-align: justify;
-    }
-    #hello-image {
-        width: 100%;
-    }
-    #hello-image img {
-        width: 250px;
-        padding-top: 20px;
-        margin-top: 20px;
-        z-index: 999;
-        padding-left: 20px;
-        margin-right: 32px;
-    }
-    #Hello-Section {
-        padding-bottom: 50px;
-        padding-top: 30px;
-        padding-left: 20px;
-    }
-    #Copyright-Text{
-        margin-top: -60px;
-        font-size: 8px;
-    }
-    .bi-x-lg{
-        margin-right: -80px;
-        text-align: right;
-    }
-    .Download-btn {
-        padding: 0.7rem 1rem;
-        font-size: 1.2rem;
-    }
-    #navbar ul li {
-        text-align: left;
-        margin-right: 10px;
-    }
+@media screen and (max-width: 500px) {
+	#portfolio h1 {
+		text-align: center;
+		cursor: pointer;
+		font-size: 20px;
+		margin-top: 0px;
+		margin-bottom: -130px;
+		padding-left: 80px;
+	}
+	#hello-description {
+		width: 100%;
+		float: left;
+		box-sizing: border-box;
+	}
+	#hello-description h1 {
+		font-size: 30px;
+		padding-bottom: 20px;
+		letter-spacing: 0.1rem;
+		cursor: pointer;
+	}
+	#hello-description p {
+		padding-bottom: 10px;
+		font-size: 11px;
+		margin-right: 40px;
+		text-align: justify;
+	}
+	#hello-image {
+		width: 100%;
+	}
+	#hello-image img {
+		width: 250px;
+		padding-top: 20px;
+		margin-top: 20px;
+		z-index: 999;
+		padding-left: 20px;
+		margin-right: 32px;
+	}
+	#Hello-Section {
+		padding-bottom: 50px;
+		padding-top: 30px;
+		padding-left: 20px;
+	}
+	#Copyright-Text {
+		margin-top: -60px;
+		font-size: 8px;
+	}
+	.bi-x-lg {
+		margin-right: -80px;
+		text-align: right;
+	}
+	.Download-btn {
+		padding: 0.7rem 1rem;
+		font-size: 1.2rem;
+	}
+	#navbar ul li {
+		text-align: left;
+		margin-right: 10px;
+	}
 }
 /* reponsive mobile samsung galaxy S8+ */
-@media screen and (max-width: 740px){
-    #hello-description p{
-        padding-bottom: 25px;
-    }
-    #hello-image img {
-        margin-top: 40px;
-    }
+@media screen and (max-width: 740px) {
+	#hello-description p {
+		padding-bottom: 25px;
+	}
+	#hello-image img {
+		margin-top: 40px;
+	}
 }
 /* ........................... 
           mobile Menu
  ...........................  */
-#navbar ul #mobile-cross, #mobile-bar{
-    display: none;
+#navbar ul #mobile-cross,
+#mobile-bar {
+	display: none;
 }
-@media screen and (max-width: 500px){
-    #navbar {
-        background-color: #130f40;
-        position: absolute;
-        top: 0px;
-        height: 100vh;
-        width: 200px;
-        padding: 0px;
-        z-index: 9999;
-    }
-    #navbar ul li{
-        display: block;
-        padding: 18px 0px;
-        padding-right: 40px;
-        /* padding-right: 105px; */
-        border-bottom: 1px solid #d8d1d1;
-        text-align: center;
-    }
-    #mobile-cross{
-        color: rgba(255,255,255,0.7);
-    }
-    .bi-x-lg{
-        font-size: 25px;
-        color: rgba(255,255,255,0.7);
-    }
-    #navbar{
-        left: -200px;
-        transition: all 0.5s ease;
-    }
-    #mobile-bar{
-        background-color: #130f40;
-        color: rgba(255,255,255,0.7);
-        padding: 18px;
-        font-size: 28px;
-        
-    }
-    #navbar ul #mobile-cross, #mobile-bar{
-        display: block;
-    }
-    #portfolio{
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+	#navbar {
+		background-color: #130f40;
+		position: absolute;
+		top: 0px;
+		height: 100vh;
+		width: 200px;
+		padding: 0px;
+		z-index: 9999;
+	}
+	#navbar ul li {
+		display: block;
+		padding: 18px 0px;
+		padding-right: 40px;
+		/* padding-right: 105px; */
+		border-bottom: 1px solid #d8d1d1;
+		text-align: center;
+	}
+	#mobile-cross {
+		color: rgba(255, 255, 255, 0.7);
+	}
+	.bi-x-lg {
+		font-size: 25px;
+		color: rgba(255, 255, 255, 0.7);
+	}
+	#navbar {
+		left: -200px;
+		transition: all 0.5s ease;
+	}
+	#mobile-bar {
+		background-color: #130f40;
+		color: rgba(255, 255, 255, 0.7);
+		padding: 18px;
+		font-size: 28px;
+	}
+	#navbar ul #mobile-cross,
+	#mobile-bar {
+		display: block;
+	}
+	#portfolio {
+		display: none;
+	}
 }
 /* ........................... 
           End

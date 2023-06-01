@@ -1,166 +1,165 @@
 /* ........................... 
           About us
  ...........................  */
-#About-Us{
-    text-align: center;
-    color: rgba(255,255,255,0.6);
-    padding: 130px 50px 280px 50px;
-    letter-spacing: 0.2rem;
-    word-spacing: 0.5rem;
-    font-size: 20px;
+#About-Us {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	padding: 130px 50px 280px 50px;
+	letter-spacing: 0.2rem;
+	word-spacing: 0.5rem;
+	font-size: 20px;
 }
-#About-Us h1{
-    padding-bottom: 20px;
+#About-Us h1 {
+	padding-bottom: 20px;
 }
-#About-Us h1:hover{
-    color: aqua;
+#About-Us h1:hover {
+	color: aqua;
 }
-#About-Us p{
-    color: rgba(255,255,255,0.6);
-     font-size: 15px;
-     letter-spacing: 0.1rem;
-    word-spacing: 0.5rem;
-    line-height: 2rem;
+#About-Us p {
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 15px;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.5rem;
+	line-height: 2rem;
 }
-#About-Us p:hover{
-    color: rgba(255,255,255,0.9);
+#About-Us p:hover {
+	color: rgba(255, 255, 255, 0.9);
 }
 /* responsive mobile phone */
-@media screen and (max-width: 500px){
-    #About-Us h1 {
-        padding-bottom: 0px;
-    }
-    #About-Us {
-        text-align: center;
-        padding: 0px 0px 60px 0px;
-    }
-    #About-Us p{
-        padding: 0px;
-        font-size: 11px;
-        text-align: justify; 
-    }
-    #Copyright-Text{
-        font-size: 7px;
-    }
+@media screen and (max-width: 500px) {
+	#About-Us h1 {
+		padding-bottom: 0px;
+	}
+	#About-Us {
+		text-align: center;
+		padding: 0px 0px 160px 0px;
+	}
+	#About-Us p {
+		padding: 0px;
+		font-size: 11px;
+		text-align: justify;
+	}
+	#Copyright-Text {
+		font-size: 7px;
+	}
 }
 /* ........................... 
           Experiance
  ...........................  */
-#Experiance{
-    text-align: center;
-    padding: 110px 80px 65px 80px;
-    color: rgba(255,255,255,0.6);
-    font-size: 15px;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.5rem;
-    line-height: 2rem;
+#Experiance {
+	text-align: center;
+	padding: 110px 80px 65px 80px;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 15px;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.5rem;
+	line-height: 2rem;
 }
-#Experiance p{
-    padding-top: 20px;
+#Experiance p {
+	padding-top: 20px;
 }
-#Experiance p:hover{
-    color: rgba(255,255,255,0.9);
+#Experiance p:hover {
+	color: rgba(255, 255, 255, 0.9);
 }
-#Experiance h1:hover{
-    color: aqua;
+#Experiance h1:hover {
+	color: aqua;
 }
-#Experiance a{
-    display: inline-block;
-    text-decoration: none;
-    color: rgba(255,255,255,0.3);  
+#Experiance a {
+	display: inline-block;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.3);
 }
-#Experiance a:hover{
-    box-shadow: -2px 5px 2px -2px aqua;
+#Experiance a:hover {
+	box-shadow: -2px 5px 2px -2px aqua;
 }
 /* responsive mobile phone */
-@media screen and (max-width: 500px){
-    #Experiance{
-        padding: 0px 0px 40px 0px;
-    }
-    #portfolio h1{
-        margin-top: 0px;
-        margin-bottom: -120px;
-    }
-    #Experiance p{
-        padding-top: 10px;
-        font-size: 11px;
-        text-align: justify;
-    }
-    #Copyright-Text{
-        font-size: 8px;
-        padding-top: 20px;
-    }
+@media screen and (max-width: 500px) {
+	#Experiance {
+		padding: 0px 0px 40px 0px;
+	}
+	#portfolio h1 {
+		margin-top: 0px;
+		margin-bottom: -120px;
+	}
+	#Experiance p {
+		padding-top: 10px;
+		font-size: 11px;
+		text-align: justify;
+	}
+	#Copyright-Text {
+		font-size: 8px;
+		padding-top: 20px;
+	}
 }
 /* ........................... 
           Contact Us
  ...........................  */
- #Contact-Us{
-    text-align: center;
-    padding: 20px;
+#Contact-Us {
+	text-align: center;
+	padding: 20px;
 }
-#Contact-Us h1{
-    padding-top: 90px;
-    color: rgba(255,255,255,0.6);
+#Contact-Us h1 {
+	padding-top: 90px;
+	color: rgba(255, 255, 255, 0.6);
 }
-#Contact-Us h1:hover{
-    color: aqua;
+#Contact-Us h1:hover {
+	color: aqua;
 }
-.div50{
-    width: 50%;
-    float: left;
-    padding:0px 50px 90px 50px;
-    box-sizing: border-box;
-    color: rgba(255,255,255,0.6);
-    font-size: 15px;
-    letter-spacing: 0.1rem;
-    word-spacing: 0.5rem;
-    line-height: 2rem;
-    text-align: left;
-    box-sizing: border-box;
+.div50 {
+	width: 50%;
+	float: left;
+	padding: 0px 50px 265px 50px;
+	box-sizing: border-box;
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 15px;
+	letter-spacing: 0.1rem;
+	word-spacing: 0.5rem;
+	line-height: 2rem;
+	text-align: left;
+	box-sizing: border-box;
 }
-.div50 address{
-    float: left;
-    padding-top: 20px;
+.div50 address {
+	float: left;
+	padding-top: 20px;
 }
-.div50 address:hover{
-    color: rgba(255,255,255,0.9);
+.div50 address:hover {
+	color: rgba(255, 255, 255, 0.9);
 }
-.div50 a{
-    display: inline-block;
-    text-decoration: none;
-    color: rgba(255,255,255,0.3);  
+.div50 a {
+	display: inline-block;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.3);
 }
-.div50 a:hover{
-    box-shadow: -2px 5px 2px -2px aqua;
+.div50 a:hover {
+	box-shadow: -2px 5px 2px -2px aqua;
 }
-.div50 h3{
-    box-shadow: -2px 5px 2px -2px  rgba(255,255,255,0.6);
+.div50 h3 {
+	box-shadow: -2px 5px 2px -2px rgba(255, 255, 255, 0.6);
 }
-.div50 h3:hover{
-    color: rgba(255,255,255,0.9);
-    box-shadow: -2px 5px 2px -2px rgba(255,255,255,0.9);
+.div50 h3:hover {
+	color: rgba(255, 255, 255, 0.9);
+	box-shadow: -2px 5px 2px -2px rgba(255, 255, 255, 0.9);
 }
-.div50 p:hover{
-    color: rgba(255,255,255,0.9);
+.div50 p:hover {
+	color: rgba(255, 255, 255, 0.9);
 }
 /* responsive mobile phone */
-@media screen and (max-width: 500px){
-    .div50 {
-        width: 100%;
-        text-align: left;
-        padding: 20px 0px 10px 0px;
-    }
-    #Contact-Us h1 {
-        padding-top: 0px;
-    }
-    #Copyright-Text {
-        margin-top: -55px;
-    }
-    .div50 p{
-        padding-top: 15px;
-    }
+@media screen and (max-width: 500px) {
+	.div50 {
+		width: 100%;
+		text-align: left;
+		padding: 20px 0px 10px 0px;
+	}
+	#Contact-Us h1 {
+		padding-top: 0px;
+	}
+	#Copyright-Text {
+		margin-top: -55px;
+	}
+	.div50 p {
+		padding-top: 15px;
+	}
 }
 /* ........................... 
           End
  ...........................  */
-
